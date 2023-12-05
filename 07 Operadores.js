@@ -161,3 +161,9 @@ console.log(false || false);
 
 console.log(!true);
 console.log(!false);
+
+// Comparaciones de valores dentro de un rango
+let minimo = 0, maximo = 5;
+let dato = 3;
+let dentroRango = dato >= minimo && dato <= maximo;
+console.log(dentroRango);
